@@ -4,9 +4,9 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class TestType extends Model
+class TestConfig extends Model
 {
     public function test(){
-        return $this->belongsToMany(Test::class);
+        return $this->belongsTo(Test::class);
     }
 }

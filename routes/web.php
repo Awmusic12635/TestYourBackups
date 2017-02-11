@@ -17,8 +17,14 @@ Route::get('/', function () {
 
 Auth::routes();
 
-Route::get('/home', 'HomeController@index');
+Route::get('/app/dasboard', 'HomeController@index');
 
-Auth::routes();
+Route::get('/app/tests', 'TestController@listTests');
+Route::get('/app/tests/{testId}', 'TestController@showTest');
+Route::get('/app/tests/{testId}/results', 'TestController@showTest');
 
-Route::get('/home', 'HomeController@index');
+Route::post('/app/tests', 'TestController@createTest');
+Route::post('/app/tests/{testId}', 'TestController@editTest');
+
+
+
