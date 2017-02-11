@@ -25,4 +25,8 @@ class Test extends Model
         return $this->hasOne(TestConfig::class);
     }
 
+    public function testResults(){
+        return $this->belongsToMany(TestResult::class);
+    }
+
 }
