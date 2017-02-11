@@ -2173,9 +2173,9 @@ namespace {
         }
         
         /**
-         * Retrieve multiple items from the cache by key.
+         * Retrieve multiple tests from the cache by key.
          * 
-         * Items not found in the cache will have a null value.
+         * tests not found in the cache will have a null value.
          *
          * @param array $keys
          * @return array 
@@ -2211,7 +2211,7 @@ namespace {
         }
         
         /**
-         * Store multiple items in the cache for a given number of minutes.
+         * Store multiple tests in the cache for a given number of minutes.
          *
          * @param array $values
          * @param float|int $minutes
@@ -2455,7 +2455,7 @@ namespace {
         }
         
         /**
-         * Remove all items from the cache.
+         * Remove all tests from the cache.
          *
          * @return bool 
          * @static 
@@ -2559,7 +2559,7 @@ namespace {
         }
         
         /**
-         * Get all of the configuration items for the application.
+         * Get all of the configuration tests for the application.
          *
          * @return array 
          * @static 
@@ -9116,7 +9116,7 @@ namespace {
         }
         
         /**
-         * Get all of the input except for a specified array of items.
+         * Get all of the input except for a specified array of tests.
          *
          * @param array|mixed $keys
          * @return array 
@@ -9127,7 +9127,7 @@ namespace {
         }
         
         /**
-         * Intersect an array of items with the input data.
+         * Intersect an array of tests with the input data.
          *
          * @param array|mixed $keys
          * @return array 
@@ -10564,7 +10564,7 @@ namespace {
         }
         
         /**
-         * Remove one or many items from the session.
+         * Remove one or many tests from the session.
          *
          * @param string|array $keys
          * @return void 
@@ -10575,7 +10575,7 @@ namespace {
         }
         
         /**
-         * Remove all of the items from the session.
+         * Remove all of the tests from the session.
          *
          * @return void 
          * @static 
